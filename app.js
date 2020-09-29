@@ -16,7 +16,7 @@ let s3 = new AWS.S3({
 });
 app.set('view engine','ejs');
 app.use(bodyParser.json());
-mongoose.connect("mongodb+srv://akshay:netflixmerihai@cluster0-oxcym.mongodb.net/test?retryWrites=true&w=majority", {
+mongoose.connect("", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
